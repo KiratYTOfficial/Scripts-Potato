@@ -1,0 +1,308 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+Title = "Boueno alert",
+
+Text = "this version of the script and almost patch ", 
+
+ 
+
+Button1 = "Yes",
+
+Button2 = "Cancel",
+
+Duration = 3
+
+})
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("BOUENO GUI", "BloodTheme")
+
+local Tab = Window:NewTab("Hack")
+
+local Section = Tab:NewSection("Hack Section")
+
+Section:NewButton("hack", "fe admin and prison hack or ...", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+Title = "Script loaded enjoy!",
+
+Text = "creds to Eliaquimzzz", 
+
+ 
+
+
+
+Duration = 30 
+
+})
+
+-- Gui to Lua
+
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+
+local OpenFrame = Instance.new("Frame")
+
+local Open = Instance.new("TextButton")
+
+local Main = Instance.new("Frame")
+
+local Deco = Instance.new("Frame")
+
+local Credits = Instance.new("TextLabel")
+
+local Close = Instance.new("TextButton")
+
+local Admin = Instance.new("TextButton")
+
+local RoExploit = Instance.new("TextButton")
+
+local PrisonLifeGui = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenFrame.Name = "OpenFrame"
+
+OpenFrame.Parent = ScreenGui
+
+OpenFrame.Active = true
+
+OpenFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+OpenFrame.BackgroundTransparency = 0.500
+
+OpenFrame.BorderSizePixel = 0
+
+OpenFrame.Position = UDim2.new(0, 0, 0.589680552, 0)
+
+OpenFrame.Size = UDim2.new(0, 134, 0, 65)
+
+Open.Name = "Open"
+
+Open.Parent = OpenFrame
+
+Open.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+
+Open.BorderSizePixel = 0
+
+Open.Position = UDim2.new(0.137233675, 0, 0.22820513, 0)
+
+Open.Size = UDim2.new(0, 97, 0, 35)
+
+Open.Font = Enum.Font.Cartoon
+
+Open.Text = "Open"
+
+Open.TextColor3 = Color3.fromRGB(0, 85, 255)
+
+Open.TextScaled = true
+
+Open.TextSize = 14.000
+
+Open.TextWrapped = true
+
+Open.MouseButton1Down:connect(function()
+
+Main.Visible = true
+
+OpenFrame.Visible = false
+
+end)
+
+Main.Name = "Main"
+
+Main.Parent = ScreenGui
+
+Main.Active = true
+
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+
+Main.BackgroundTransparency = 0.150
+
+Main.BorderColor3 = Color3.fromRGB(0, 0, 127)
+
+Main.BorderSizePixel = 0
+
+Main.Position = UDim2.new(0.239197537, 0, 0.0737100765, 0)
+
+Main.Size = UDim2.new(0, 676, 0, 405)
+
+Main.Draggable = true
+
+Deco.Name = "Deco"
+
+Deco.Parent = Main
+
+Deco.Active = true
+
+Deco.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+
+Deco.BackgroundTransparency = 0.310
+
+Deco.Size = UDim2.new(0, 676, 0, 58)
+
+Credits.Name = "Credits"
+
+Credits.Parent = Deco
+
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Credits.BackgroundTransparency = 1.000
+
+Credits.BorderSizePixel = 0
+
+Credits.Position = UDim2.new(0.0887573957, 0, 0.068965517, 0)
+
+Credits.Size = UDim2.new(0, 556, 0, 50)
+
+Credits.Font = Enum.Font.Cartoon
+
+Credits.Text = "Gui Made By Red Killer"
+
+Credits.TextColor3 = Color3.fromRGB(0, 255, 255)
+
+Credits.TextScaled = true
+
+Credits.TextSize = 14.000
+
+Credits.TextWrapped = true
+
+Close.Name = "Close"
+
+Close.Parent = Main
+
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Close.BackgroundTransparency = 1.000
+
+Close.BorderSizePixel = 0
+
+Close.Position = UDim2.new(0.911242604, 0, 0.00987654924, 0)
+
+Close.Size = UDim2.new(0, 50, 0, 50)
+
+Close.Font = Enum.Font.Cartoon
+
+Close.Text = "_"
+
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Close.TextScaled = true
+
+Close.TextSize = 14.000
+
+Close.TextWrapped = true
+
+Close.MouseButton1Down:connect(function()
+
+OpenFrame.Visible = true
+
+Main.Visible = false
+
+end)
+
+Admin.Name = "Admin"
+
+Admin.Parent = Main
+
+Admin.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+
+Admin.BorderSizePixel = 0
+
+Admin.Position = UDim2.new(0.0266272184, 0, 0.207407415, 0)
+
+Admin.Size = UDim2.new(0, 161, 0, 72)
+
+Admin.Font = Enum.Font.Cartoon
+
+Admin.Text = "FE ADMIN"
+
+Admin.TextColor3 = Color3.fromRGB(0, 255, 255)
+
+Admin.TextScaled = true
+
+Admin.TextSize = 14.000
+
+Admin.TextWrapped = true
+
+Admin.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
+end)
+
+RoExploit.Name = "RoExploit"
+
+RoExploit.Parent = Main
+
+RoExploit.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+
+RoExploit.BorderSizePixel = 0
+
+RoExploit.Position = UDim2.new(0.73520714, 0, 0.207407415, 0)
+
+RoExploit.Size = UDim2.new(0, 161, 0, 72)
+
+RoExploit.Font = Enum.Font.Cartoon
+
+RoExploit.Text = "ROEXPLOIT"
+
+RoExploit.TextColor3 = Color3.fromRGB(0, 255, 255)
+
+RoExploit.TextScaled = true
+
+RoExploit.TextSize = 14.000
+
+RoExploit.TextWrapped = true
+
+RoExploit.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('http://pastebin.com/raw/4ahcXJBN'),true))()
+
+end)
+
+PrisonLifeGui.Name = "Prison Life Gui"
+
+PrisonLifeGui.Parent = Main
+
+PrisonLifeGui.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+
+PrisonLifeGui.BorderSizePixel = 0
+
+PrisonLifeGui.Position = UDim2.new(0.380177557, 0, 0.207407415, 0)
+
+PrisonLifeGui.Size = UDim2.new(0, 161, 0, 72)
+
+PrisonLifeGui.Font = Enum.Font.Cartoon
+
+PrisonLifeGui.Text = "PRISON LIFE GUI"
+
+PrisonLifeGui.TextColor3 = Color3.fromRGB(0, 255, 255)
+
+PrisonLifeGui.TextScaled = true
+
+PrisonLifeGui.TextSize = 14.000
+
+PrisonLifeGui.TextWrapped = true
+
+PrisonLifeGui.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/qM419Eb5'),true))()
+
+end)
+
+
+
+
+    print("Clicked")
+
+end)
