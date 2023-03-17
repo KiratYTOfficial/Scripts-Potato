@@ -6,9 +6,9 @@ Text = "this version of the script and almost patch ",
 
  
 
-Button1 = "Yes",
+Button1 = "Ok",
 
-Button2 = "Cancel",
+Button2 = "Close",
 
 Duration = 3
 
@@ -28,13 +28,13 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 Title = "Script loaded enjoy!",
 
-Text = "creds to Eliaquimzzz", 
+Text = "Script Open...", 
 
  
 
 
 
-Duration = 30 
+Duration = 2
 
 })
 
